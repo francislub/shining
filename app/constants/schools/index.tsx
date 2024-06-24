@@ -19,15 +19,15 @@ import Bulife from '../../../public/images/features/life.jpg';
 export const SchoolsData = [
     {
         icon: RxDesktop,
-        title: "School Of Science And Technology",
-        content:"Prepares professionals that can harness the potentials of tech...",
+        title: "Academics",
+        content:"Pupils enjoy a fulfilling lifestyle with academic excellence, personal growth, and preparation for future endeavors.",
         backgroundImage: "/images/features/bb.jpg",
         cardlink: "schools/school-of-science",
     },
     {
         icon: RxPencil2,
-        title: "School of Education",
-        content:"A true teacher is one that is mentally, physically and spiritually sound to impart the same virtues in his/her learners...",
+        title: "Sports",
+        content:"Diverse athletic programs provide pupils with opportunities to develop their talents, stay active, and foster a love of healthy living.",
         backgroundImage: "/images/carousel/bugate.jpg",
         cardlink: "schools/school-of-education",
     },
@@ -54,16 +54,16 @@ export const SchoolsData = [
     },
     {
         icon: BiHealth,
-        title: "School Of Health And Allied Sciences",
-        content:"More than committed to producing world class medical experts...",
+        title: "Art $ Clubs",
+        content:"Pupils explore their passions, unleash their creativity, and build new skills through a variety of enriching programs.",
         backgroundImage: "/images/carousel/buadmin.jpg",
         cardlink: "schools/school-of-health",
     },
     {
         icon: FaGraduationCap,
-        title: "School Of Graduate Studies",
-        content:"Offers advanced education and research in a novel process...",
-        backgroundImage: "/images/features/bu.jpg",
+        title: "Tours",
+        content:"Offers advanced education through educational trips all over the country",
+        backgroundImage: "/images/features/tour.jpg",
         cardlink: "schools/school-of-graduate",
     },
 ];

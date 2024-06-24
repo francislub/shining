@@ -25,6 +25,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
+      <SchoolsPage />
       <ExploreBugema />
       <Brands />
       <AboutSectionOne />
@@ -33,7 +34,6 @@ export default function Home() {
       <EventsAndNews />
       <Blog />
       <Contact />
-      <SchoolsPage />
       <ScrollToTop />
     </>
   );

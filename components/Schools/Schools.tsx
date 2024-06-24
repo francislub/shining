@@ -34,8 +34,8 @@ export default function SchoolsPage() {
       {/* Schools Section title */}
       <div className="px-3">
         <SectionTitle
-          title="Our Schools And Faculties"
-          paragraph="Checkout the schools and faculties at Bugema University. Each school is dedicated to providing top-notch education and fostering an environment of academic excellence. Learn about the unique programs, esteemed faculty members, and the cutting-edge research and facilities that contribute to the vibrant academic community on our campuses."
+          title="What We Provide"
+          paragraph=""
         />
       </div>
 
