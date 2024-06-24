@@ -40,7 +40,7 @@ export const SchoolsData = [
     },
     {
         icon: BiSolidBusiness,
-        title: "School Of Business",
+        title: "Entertainments",
         content:"As business times evolve, so are the skills needed to run such environments...",
         backgroundImage: "/images/features/life.jpg",
         cardlink: "schools/school-of-business",
