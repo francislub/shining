@@ -131,7 +131,10 @@ const why_bugema = () =>{
                         <div className="vertical-line ml-24 my-24 fade-in "  style={{marginLeft:'115px',marginTop:'25%'}}> 
                               <div className="mr-2 my-5 slider slide--fast">
                                     
-                                    <h1  style={{color:'gray',fontSize: '35px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold main '   onClick={main}> <span id='main' className='animated href=""'>Important Links</span></h1> 
+                                    <h1  style={{color:'gray',fontSize: '35px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold main '   onClick={main}> <span id='main' className='animated href=""'>Useful Links</span></h1> 
+                              </div>
+                              <div className="mr-2 my-5 slider slide--fast">
+                                <h1  style={{color:'gray',fontSize: '35px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold main '   onClick={main}> <span id='main' className='animated href=""'>Downloads</span></h1> 
                               </div>
                               
                               {/*###===============================================================================
@@ -157,34 +160,40 @@ const why_bugema = () =>{
                               <li>
                               <div className="mr-2 my-5 slider slide--slow ">
                               
-                              <h1  style={{ fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > ERMS-Students </h1> 
+                              <h1  style={{ fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' >News $ Announcements </h1> 
                               
                               </div>
                               </li>
                               
                               <li>
                               <div className="mr-2 my-5 slider slide--slow ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> ERMS-Staff</h1> 
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>Religious Affairs And Prayers</h1> 
                                     
                               </div>
                               </li>
                               <li>
                               <div className="mr-2 my-5 slider slide--fast ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > E-Learning </h1> 
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > Accomodation And Meals </h1> 
                                     
                               </div>
                               </li>
                               
                               <li>
                               <div className="mr-2 my-5 slider slide--slow ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> E-Library </h1>
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>Pupils Health Care </h1>
                                     
                               </div>
                               </li>
                               
                               <li>
                               <div className="mr-2 my-5 slider slide--slower ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> Research Repository </h1> 
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>Music Dance And Drama </h1> 
+                                    
+                              </div>
+                              </li>
+                              <li>
+                              <div className="mr-2 my-5 slider slide--slower ">
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>Academic Programs </h1> 
                                     
                               </div>
                               </li>
@@ -336,7 +345,7 @@ const why_bugema = () =>{
                               </div>
                               <div className="ml-19 mr-5 transform -skew-x-11 text-white grid-rows-2 fade-in " style={{marginTop:'-7%'}}>
                                     <div className='columns-1 bg-black  change-on-hover '>
-                                    <h1  style={{fontSize: '19px',cursor:"pointer",height:"70px"}} className='new-arr change-on-hover2'>Apply here  <FaArrowRight className='new-arr'/></h1>
+                                    <h1  style={{fontSize: '19px',cursor:"pointer",height:"70px"}} className='new-arr change-on-hover2'>Contact Us  <FaArrowRight className='new-arr'/></h1>
                                     </div>
                               </div> 
                         

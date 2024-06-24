@@ -23,9 +23,8 @@ const Blog = () => {
     <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="You'll find a wealth of 
-        knowledge and insights on various topics related to academia, student life, research, and more."
+          title="Our Latest News"
+          paragraph="Stay up-to-date with the latest news at Shining Stars Nursery And Primary School! "
           center
         />
 

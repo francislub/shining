@@ -47,7 +47,7 @@ const EventsAndNews: React.FC = () => {
   return (
     <section id='eventsnadnews'>
         <SectionTitle
-          title="Our Latest Events And News"
+          title="Our Latest Events"
           paragraph="You'll find a wealth of 
         knowledge and insights on various topics related to academia, student life, research, and more."
           center
@@ -101,7 +101,7 @@ const EventsAndNews: React.FC = () => {
 
             {/* News Column */}
             <div className="w-full md:w-1/2 relative">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4 dark:text-white">Our Latest News</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4 dark:text-white">Our Latest Events</h2>
             <SwiperComponent
                 spaceBetween={30}
                 centeredSlides
