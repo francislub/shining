@@ -33,8 +33,8 @@ export const SchoolsData = [
     },
     {
         icon: BiCross,
-        title: "School Of Theology And Relig. Studies",
-        content:"Provides spiritual, academic, physical and social development in preparing pastors...",
+        title: "Bible Study",
+        content:"Provides spiritual, academic, physical and social development",
         backgroundImage: "/images/features/bb.jpg",
         cardlink: "schools/school-of-theology",
     },
@@ -47,7 +47,7 @@ export const SchoolsData = [
     },
     {
         icon: BiSolidFactory,
-        title: "School of Agric. And Applied Sciences",
+        title: "ICT",
         content:"The basis of the economy not only in Uganda but also in most developing economies around the world...",
         backgroundImage: "/images/carousel/bugate.jpg",
         cardlink: "schools/school-of-agric",

@@ -27,8 +27,8 @@ export default function Home() {
       <Features />
       <SchoolsPage />
       <ExploreBugema />
-      <Brands />
-      <AboutSectionOne />
+      {/* <Brands /> */}
+      {/* <AboutSectionOne /> */}
       {/* <AboutSectionTwo /> */}
       {/* <Testimonials /> */}
       <EventsAndNews />
