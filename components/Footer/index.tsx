@@ -36,15 +36,15 @@ const Footer = () => {
                     src={image}
                     alt="logo"
                     className="flex dark:hidden rounded-full"
-                    width={200}
-                    height={30}
+                    width={180}
+                    height={35}
                   />
                   <Image
                     src={image}
                     alt="logo"
                     className="hidden dark:block rounded-full"
-                    width={200}
-                    height={30}
+                    width={180}
+                    height={35}
                   />
                 </Link>
                 <h1 className="mb-9 text-base font-medium leading-relaxed text-body-color">
@@ -158,7 +158,7 @@ const Footer = () => {
                       Pupil's Health Care{" "}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -166,7 +166,7 @@ const Footer = () => {
                       {" "}
                       Fees Structure{" "}
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/"
@@ -237,7 +237,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Apply Today{" "}
+                      Religious Affairs And Prayers{" "}
                     </Link>
                     </li>
                     <li>
@@ -246,7 +246,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Graduate Verification{" "}
+                      Accomodation And Meals{" "}
                     </Link>
                     </li>
                     <li>
@@ -255,7 +255,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      ERMS Staff Login{" "}
+                      Pupil's Health Care{" "}
                     </Link>
                     </li>
                     <li>
@@ -264,7 +264,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Student Portal{" "}
+                      Music Dance And Drama{" "}
                     </Link>
                     </li>
                     <li>
@@ -273,7 +273,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      E-Learning{" "}
+                      School Curriculum{" "}
                     </Link>
                     </li>
                     <li>
@@ -282,10 +282,10 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Library{" "}
+                      Academic Programs{" "}
                     </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                       href="/"
                       className="inline-block text-base font-medium text-body-color hover:text-primary"
@@ -293,7 +293,7 @@ const Footer = () => {
                       {" "}
                       E-Library{" "}
                     </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 )}
               </div>
@@ -311,7 +311,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Strategic Plan{" "}
+                      Fees Structure{" "}
                     </Link>
                   </li>
                   <li>
@@ -320,7 +320,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Synopsis Concept{" "}
+                      Circuler{" "}
                     </Link>
                   </li>
                   <li>
@@ -329,7 +329,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Annual Report{" "}
+                      Meeting Letters{" "}
                     </Link>
                   </li>
                   <li>
@@ -338,7 +338,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      State Of The University Address{" "}
+                      School Magazine{" "}
                     </Link>
                   </li>
                   <li>
@@ -347,19 +347,19 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Gender Equality Plan{" "}
+                      School Calender{" "}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Graduating Class Requirements{" "}
+                      school{" "}
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -367,7 +367,7 @@ const Footer = () => {
                       {" "}
                       Grading System Transcript{" "}
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -402,7 +402,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Strategic Plan{" "}
+                      Fees Structure{" "}
                     </Link>
                     </li>
                     <li>
@@ -411,7 +411,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Synopsis Concept{" "}
+                      Circuler{" "}
                     </Link>
                     </li>
                     <li>
@@ -420,7 +420,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Annual Report{" "}
+                      Meeting Letters{" "}
                     </Link>
                     </li>
                     <li>
@@ -429,7 +429,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      State Of The University Address{" "}
+                      School Magazine{" "}
                     </Link>
                     </li>
                     <li>
@@ -438,10 +438,10 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Gender Equality Plan{" "}
+                      School Calender{" "}
                     </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -449,8 +449,8 @@ const Footer = () => {
                       {" "}
                       Graduating Class Requirements{" "}
                     </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <Link
                       href="/"
                       className=" inline-block text-base font-medium text-body-color hover:text-primary"
@@ -458,7 +458,7 @@ const Footer = () => {
                       {" "}
                       Grading System Transcript{" "}
                     </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 )}
               </div>
@@ -528,14 +528,14 @@ const Footer = () => {
                         className="text-left focus:outline-none mb-4 block"
                         onClick={() => toggleDropdown("policies")}
                       >
-                        Policies
+                        School Facilities
                       </button>
                     ) : (
                       <button
                         className="text-left focus:outline-none mb-4 block"
                         onClick={() => toggleDropdown("policies")}
                       >
-                        Policies
+                        School Facilities
                       </button>
                     )}
                   </h2>
@@ -579,7 +579,7 @@ const Footer = () => {
                       Residence Facilities{" "}
                     </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                       href="/"
                       className=" inline-block text-base font-medium text-body-color hover:text-primary"
@@ -587,7 +587,7 @@ const Footer = () => {
                       {" "}
                       BU Research Policy{" "}
                     </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 )}
               </div>
@@ -598,16 +598,17 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container md:flex md:justify-center text-center md:space-x-12">
             <Link href="/" className="text-center hover:scale-105 hover:transition-all hover:duration-300 text-base text-body-color dark:text-white">
-              &#169;  Bugema University
+              &#169;  2024Shining Stars 
             </Link>
             <h1 className="text-center text-base text-body-color hover:scale-105 hover:transition-all hover:duration-300 dark:text-white">
-              <a href="tel:+256-312-351-400">Phone: +256-312-351-400</a>
+              <a href="tel:+256-753753179">Phone: +256-753753179</a>
+              <a href="tel:+256-773297951">, +256-773297951</a>
             </h1>
-            <Link href='https://www.bugemauniv.ac.ug' className="text-center hover:scale-105 hover:transition-all hover:duration-300 text-base text-body-color dark:text-white">
-              Website: www.bugemauniv.ac.ug
+            <Link href='' className="text-center hover:scale-105 hover:transition-all hover:duration-300 text-base text-body-color dark:text-white">
+              Website: ......................
             </Link>
             <h1 className="text-center text-base hover:scale-105  hover:transition-all hover:duration-300 text-body-color dark:text-white">
-              <a href="mailto:info@bugemauniv.ac.ug">Email: info@bugemauniv.ac.ug</a>
+              <a href="mailto:shiningstars.school2022@gmail.com">Email: shiningstars.school2022@gmail.com</a>
             </h1>
           </div>
         </div>

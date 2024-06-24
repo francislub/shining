@@ -191,16 +191,25 @@ const Foot = () =>{
                         <div className="vertical-line ml-24 my-24 fade-in "  style={{marginLeft:'115px',marginTop:'25%'}}> 
                               <div className="mr-2 my-5 slider slide--fast">
                                     
-                                    <h1  style={{color:'gray',fontSize: '35px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold main '   onClick={main}> <span id='main' className='animated href=""'>Accommodation</span></h1> 
+                                    <h1  style={{color:'gray',fontSize: '35px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold main '   onClick={main}> <span id='main' className='animated href=""'>Facilities</span></h1> 
                               </div>
                               <div className="mr-2 my-5  slider slide--slow ">
-                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={payments}><span id='payments' className='animated'>Sports</span></h1> 
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={payments}><span id='payments' className='animated'>Drama</span></h1> 
                               </div>
                               <div className="mr-2 my-5  slider slide--slower">
-                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold 'onClick={why_bugema} >  <span id='why_bugema' className='animated'>Clubs & Associations</span></h1> 
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold 'onClick={why_bugema} >  <span id='why_bugema' className='animated'>Art</span></h1> 
                               </div>
                               <div className="mr-2 my-5 slider slide--slowest ">
-                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={touch}> <span className='animated' id='contact'>Student Leadership</span></h1> 
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={touch}> <span className='animated' id='contact'>Sports</span></h1> 
+                              </div>
+                              <div className="mr-2 my-5 slider slide--slowest ">
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={touch}> <span className='animated' id='contact'>Music</span></h1> 
+                              </div>
+                              <div className="mr-2 my-5 slider slide--slowest ">
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={touch}> <span className='animated' id='contact'>Societies</span></h1> 
+                              </div>
+                              <div className="mr-2 my-5 slider slide--slowest ">
+                                    <h1  style={{color:'gray',fontSize: '25px',cursor:"pointer", marginRight:'5px'}} className='animated font-bold ' onClick={touch}> <span className='animated' id='contact'>School Trips</span></h1> 
                               </div>
                               {/*###===============================================================================
                                A T T A C H M E N T   P I C T U R E S    U N D E R    T H E   F I R S T   C O L U M N 
@@ -238,31 +247,31 @@ const Foot = () =>{
                         </div>
                   
                   </div>
-                  {/*###=============== A  C  C  O  M  M  O  D  A  T  I  O  N ================###*/}
+                  {/*###=============== F a c i l i t i e s ================###*/}
                   <div className=" ml-12 my-24 fade-in-slow " id='courses' style={{marginTop:'15%'}}> 
                         <ul>
                               <li>
                               <div className="mr-2 my-5  ">
                               
-                              <h1  style={{ fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > Culture </h1> 
+                              <h1  style={{ fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > Transport</h1> 
                               
                               </div>
                               </li>
                               
                               <li>
                               <div className="mr-2 my-5 slider slide--slow ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> Sports </h1> 
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> ICT </h1> 
                                     
                               </div>
                               </li>
                               <li>
                               <div className="mr-2 my-5 slider slide--fast ">
-                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > Exhibition </h1> 
+                                    <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold' > Buildings </h1> 
                                     
                               </div>
                               </li>
                               
-                              <li>
+                              {/* <li>
                               <div className="mr-2 my-5 slider slide--slow ">
                                     <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> Entreprenuership </h1>
                                     
@@ -274,12 +283,12 @@ const Foot = () =>{
                                     <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> Innovations and Inventions</h1> 
                                     
                               </div>
-                              </li>
+                              </li> */}
                               
                               <li>
                               <div className="mr-2 my-5 slider slide--slow ">
                                     <Link href={'/news'}>
-                                          <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>Events</h1>
+                                          <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'>More</h1>
                                     </Link>
                               </div>
                               </li>
@@ -288,7 +297,7 @@ const Foot = () =>{
                               <div className="mr-2 my-5 slider slide--fast ">
                                      
                                     <Link href={'/events'}>
-                                          <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> News</h1>
+                                          <h1  style={{fontSize: '15px',cursor:"pointer", marginRight:'5px'}} className='schools text-black font-bold'> More</h1>
                                     </Link>
                               </div>
                               </li>

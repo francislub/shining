@@ -8,7 +8,7 @@ import Model1 from "@/components/model/Model1";
 import Model2 from "@/components/model/Model2";
 import Model3 from "@/components/model/Model3";
 import Model4 from "@/components/model/Model4";
-import image from "../../public/images/logo/bugema.png";
+import image from "../../public/images/logo.png";
 import "../../styles/nav.css";
 import "../../styles/index.css";
 import { FaChevronDown } from "react-icons/fa";
@@ -145,6 +145,18 @@ const Header = () => {
                                           }`}
                                           >
                                           <ul className="block lg:flex lg:space-x-12 top-0 left-0 h-full bg-primary dark:bg-white  transform -skew-x-12 text-white">
+                                          <li>
+                                                <Link
+                                                href=""
+                                                className={`nav hover flex py-2 text-base dark:text-black text-white font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
+                                                onClick={forth_modal}
+                                                >
+                                                <span className={showModel3 ? "active" : ""}>About Us</span>
+                                                <span className="my-1 ml-2 dark:text-dark text-white">
+                                                <FaChevronDown className={showModel3 ? "drop" : ""} />
+                                                </span>
+                                                </Link>
+                                          </li>
                                           <li className="group relative">
                                                 <Link
                                                 href="."
@@ -163,7 +175,7 @@ const Header = () => {
                                                 className={`nav hover flex py-2 text-base dark:text-black text-white font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
                                                 onClick={second_modal}
                                                 >
-                                                <span className={showModel1 ? "active" : ""}>Student life</span>
+                                                <span className={showModel1 ? "active" : ""}>School life</span>
                                                 <span className="my-1 ml-2 dark:text-dark text-white">
                                                 <FaChevronDown className={showModel1 ? "drop" : ""} />
                                                 </span>
@@ -178,18 +190,6 @@ const Header = () => {
                                                 <span className={showModel2 ? "active" : ""}>Research</span>
                                                 <span className={"my-1 ml-2 dark:text-dark text-white"}>
                                                 <FaChevronDown className={showModel2 ? "drop" : ""} />
-                                                </span>
-                                                </Link>
-                                          </li>
-                                          <li>
-                                                <Link
-                                                href=""
-                                                className={`nav hover flex py-2 text-base dark:text-black text-white font-bold group-hover:opacity-70 lg:mr-5 lg:inline-flex lg:py-6 lg:px-0`}
-                                                onClick={forth_modal}
-                                                >
-                                                <span className={showModel3 ? "active" : ""}>Campuses</span>
-                                                <span className="my-1 ml-2 dark:text-dark text-white">
-                                                <FaChevronDown className={showModel3 ? "drop" : ""} />
                                                 </span>
                                                 </Link>
                                           </li>

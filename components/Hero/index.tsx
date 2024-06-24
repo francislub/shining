@@ -72,13 +72,13 @@ const Hero = () => {
                 {/* On big screens */}
                 <motion.h2 className="hidden md:block uppercase text-base font-medium leading-relaxed text-gray-500/90 dark:text-white dark:opacity-90 sm:text-xl md:text-4xl" 
                 variants={textVariants}>
-                  Bugema University
+                  Shining Stars Nursary And Primary School- Vvumba
                 </motion.h2>
 
                 {/* On small screens */}
                 <motion.h2 className="md:hidden uppercase font-medium leading-relaxed text-gray-500/90 dark:text-white dark:opacity-90 sm:text-xl text-xl md:text-4xl" 
                 variants={textVariants}>
-                  Bugema University
+                  Shining Stars Nursary And Primary School- Vvumba
                 </motion.h2>
 
                 {/* Buttons on big screens */}
@@ -166,12 +166,12 @@ const Hero = () => {
 
               {/* Sliding bg text container on big screens */}
               <motion.div 
-                className="hidden md:block slidingTextContainer text-[#0000001f] dark:text-[#ffffff09] w-[220%] font-bold" 
+                className="hidden md:block slidingTextContainer text-black dark:text-white font-bold opacity-75 dark:opacity-40" 
                 variants={sliderVariants} 
                 initial="initial" 
                 animate="animate"
               >
-                Bugema University
+                Shining Stars Nursary And Primary School- Vvumba
               </motion.div>
 
             </div>
